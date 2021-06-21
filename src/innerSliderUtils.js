@@ -823,9 +823,9 @@ export const getTrackCSS = spec => {
     }
   } else {
     if (spec.vertical) {
-      style['top'] = spec.left
+      style['top'] = spec.left + 'px'
     } else {
-      style['left'] = spec.left
+      style['left'] = spec.left + 'px'
     }
   }
   if (spec.fade) style = { opacity: 1 }
